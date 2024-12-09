@@ -122,3 +122,11 @@ span {
     display: none;
 }
 
+@media (min-width: 1000px) { 
+  
+    .container {
+      transform: scale(2); 
+      transform-origin: top left; 
+    }
+  }
+
