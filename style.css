@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+:root{
+    --verde-claro: #A1DAB4;
+    --verde-escuro: #3D8E4F;
+    --azul-claro: #A6CFE4;
+    --azul-escuro: #3B7F91;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    color: var(--azul-escuro); /* Cor de texto */
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(213, 222, 222);
+    margin: 0 auto;
+    margin-top: 4em;
+    width: 100%; /* alterar para pc*/
+    border-radius: 2em;
+    box-shadow: 1px 1px 1px solid rgba(0, 0, 0, 0.724);
+    gap: 10px;
+    justify-content: center;
+   
+}
+
+.numeroSorteado{
+    display: flex;
+    gap: 10PX;
+    text-align: center;
+    margin-left: 1.8em;
+
+}
+
+
+.circulo {
+    width: 25px; /* alterar para pc*/
+    height: 25px; /* alterar para pc*/
+    border-radius: 50%; 
+    background-color: white; 
+    font-size: 20px; 
+    font-weight:400; 
+    margin: 0; 
+    border: none; 
+    text-align: center;
+}
+
+
+
+.li-estilo {
+    color: black;
+}
+
+
+
+span {
+    background-color: var(--verde-escuro);
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+    cursor: pointer;
+    
+}
+
+.titulo{
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 1em;
+}
+
+.btn {
+    background-color: var(--amarelo-escuro); 
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; 
+    visibility: hidden;
+    
+  }
+
+.copy{
+    color: black;
+    font-size: 2px;
+    cursor: pointer;
+
+}
+.btn-estilo{
+    width: 200px;
+    height: 40px;
+    background-color: var(--azul-escuro);
+    border: none;
+    border-radius: 5px;
+    color: azure;
+    margin-top: 1em;
+    cursor: pointer;
+    transition: background-color 800ms; 
+    font-size: 0.7em;
+}
+.btn:hover,.btn-estilo:hover{
+    background-color:#5498ab ;
+    
+}
+.btn-estilo:active{
+    background-color:green ;
+}
+.btn:hover{
+    color: aliceblue;
+
+}
+
+.gerado{
+    display: none;
+}
+

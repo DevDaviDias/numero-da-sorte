@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tentando a Sorte com JavaScript</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 class="titulo">Números da Sorte</h1>
+        <h2 class="numeroSorteado gerados">
+            <span class="num1 estilo circulo">--</span>
+            <span class="num2 estilo circulo">--</span>
+            <span class="num3 estilo circulo">--</span>
+            <span class="num4 estilo circulo">--</span>
+            <span class="num5 estilo circulo">--</span>
+            <span class="num6 estilo circulo">--</span>
+            <span class="btn estilo circulo"><i class="bi bi-copy " onclick="copiarNumeros()"></i></span>
+        </h2>
+        <h2 class="gerado">Boa sorte!!!</h2>
+
+        <button class="btn-estilo" onclick="Sortear()">Clique e veja eu número da sorte!</button>
+
+        <h2 class="gerado">Boa sorte!!!</h2>
+        <ul class="numeros-gerados" id="tentativasList"></ul>
+        
+    </div>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>
